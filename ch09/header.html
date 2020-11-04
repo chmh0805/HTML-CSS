@@ -25,10 +25,13 @@
                 background-color: orange;
                 display: flex;
                 justify-content: space-around;
+                flex-wrap: wrap;
             }
 
             li {
                 list-style-type: none;
+                width: 300px;
+                text-align: center;
             }
 
             nav a {
@@ -57,7 +60,7 @@
                 display: none;
             }
 
-            .submenu > a .dropdown:hover {
+            .submenu > a:hover + .dropdown {
                 display: block;
             }
         </style>
