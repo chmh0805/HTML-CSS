@@ -1,0 +1,10 @@
+/* css파일 내에서 다른 css파일을 import할 수 있다. */
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+* { /* 모든 태그에 적용 */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* border를 포함한 크기로 맞춰준다. */
+}
