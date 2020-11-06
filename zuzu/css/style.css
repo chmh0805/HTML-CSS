@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.all-box {
+    display: flex;
+    height: 700px;
+}
+
+.background1 {
+    width: 50%;
+    background-image: url("../images/vacation.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background2 {
+    width: 50%;
+    height: 80%;
+    background-color: #F8ECEB;
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+}
+
+.header__logo {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #282929;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.header__menu div {
+    margin-right: 20px;
+}
+
+.header__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #847E7D;
+}
+
+.img-text {
+    position: absolute;
+    font-size: 60px;
+    left: 55%;
+    top: 20%;
+    font-weight: bolder;
+    color: #252523;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height:20%;
+    left: 50%;
+    top: 73%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #797979;
+}
+
+.footer__icon-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}

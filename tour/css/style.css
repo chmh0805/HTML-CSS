@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 100px;
+}
+
+.header__icon {
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 64, 64);
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.header__menu {
+    position: absolute;
+    top: 12%;
+    width: 250px;
+    background-color: rgb(70, 64, 64);
+    visibility: hidden;
+}
+
+.header__menu div{
+    padding: 50px;
+    border: 1px solid black;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "CookieRun";
+}
+
+.header__title {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(70, 64, 64);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+}
+
+.main__text {
+    display: flex;
+    text-align: start;
+    text-indent: 3px;
+    align-items: center;
+    height: 200px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.main__text-box {
+    width: 30%;
+}
+
+.main__img-box {
+    width: 70%;
+    height: 100%;
+}
+
+.main__img-box img {
+    width: 100%;
+    height: 650px;
+}
+
+.main__pagenum {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 39px;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+}
+
+.main__name {
+    position: absolute;
+    font-size: 100px;
+    font-weight: 1000;
+    color: #363D3F;
+    left: 12%;
+    top: 30%;
+}
+
